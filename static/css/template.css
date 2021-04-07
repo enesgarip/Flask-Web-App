@@ -1,12 +1,12 @@
-body{
+.bodystyle{
 	background-color:lightblue;
-	margin: auto;
-	width: 50%;
-	padding: 10px;
 	text-align:center;
 }
-
-.menu{
-	display:table;
-	margin:0 auto;
+.h1style{
+	margin: 80px;
+	color: white;
+}
+.pstyle{
+	margin: 50px;
+	color: #6f42c1;
 }

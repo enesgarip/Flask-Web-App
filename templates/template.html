@@ -3,22 +3,33 @@
  <head>
    <meta charset="utf-8">
    <title>Flask Parent Template</title>
-   <link rel="stylesheet" type="text/css" href="./static/css/template.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/template.css">
+     <link rel="stylesheet" type="text/css" href="./static/css/bootstrap.css">
  </head>
- <body>
-    <header>
-      <div class="container">
-        <h1 class="logo">Etsy Scraper</h1>
-        <strong><nav>
-          <ul class="menu">
-            <li><a href="{{ url_for('home') }}">Home</a></li>
-            <li><a href="{{ url_for('products') }}">Products</a></li>
-          </ul>
-        </nav></strong>
-      </div>
-    </header>
- 
+ <body class="bodystyle">
+<div class="container ">
+    <div class="row justify-content-center">
+ <nav class="navbar navbar-expand-lg navbar-dark bg-primary " >
+     <a class="navbar-brand"></a>
+
+      <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('home') }}">Home
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('products') }}">Products</a>
+      </li>
+    </ul>
+  </div>
+ </nav>
+    </div>
+</div>
+    <div class="body">
     {% block content %}
     {% endblock %}
+    </div>
+
  </body>
 </html>

@@ -7,9 +7,15 @@
   <body>
   {% extends "template.html" %}
     {% block content %}
-    
-    <h1> Home </h1>
-   
+    <div class="container">
+    <h1 class="h1style"> Etsy Web Scraper </h1>
+        <p class="pstyle">A tool that returns name, image,price of a product sold on Etsy</p>
+  <div class="form-group">
+
+  <input type="text" class="form-control" placeholder="product link e.g. https://www.etsy.com/uk/listing/772695061/brass-or-silver-leaf-bookmark-set" id="inputDefault">
+</div>
+<button type="button" class="btn btn-primary">GET</button>
+    </div>
 	  {% endblock %}
   </body>
 </html>
