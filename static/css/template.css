@@ -2,11 +2,25 @@
 	background-color:lightblue;
 	text-align:center;
 }
-.h1style{
-	margin: 80px;
+h1{
+
 	color: white;
 }
-.pstyle{
-	margin: 50px;
+.p1{
+	margin: 100px;
 	color: #6f42c1;
+}
+.box{
+    width: 250px;
+	margin-left: auto;
+  	margin-right: auto;
+	border: 5px solid black;
+}
+img{
+	max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+.container1{
+	margin: 100px;
 }

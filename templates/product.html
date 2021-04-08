@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Product</title>
+  </head>
+  <body>
+  {% extends "template.html" %}
+    {% block content %}
+    <h1> Product </h1>
+        <div class="box">
+             <img src="{{ data['image'] }}" alt="image"/>
+        </div>
+        <div>
+            <p class="p1">{{data['name']}}</p>
+            <p class="p1">{{data['image']}}</p>
+            <p class="p1">{{data['price']}}</p>
+        </div>
+
+	  {% endblock %}
+  </body>
+</html>
+

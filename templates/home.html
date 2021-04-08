@@ -7,14 +7,16 @@
   <body>
   {% extends "template.html" %}
     {% block content %}
-    <div class="container">
-    <h1 class="h1style"> Etsy Web Scraper </h1>
-        <p class="pstyle">A tool that returns name, image,price of a product sold on Etsy</p>
+    <div class="container1">
+    <h1> Etsy Web Scraper </h1>
+        <p class="p1">A tool that returns name, image,price of a product sold on Etsy</p>
   <div class="form-group">
+    <form method="POST" action="{{ url_for('home') }}">
+        <input type="text" class="form-control" placeholder="product link e.g. https://www.etsy.com/uk/listing/772695061/brass-or-silver-leaf-bookmark-set" id="inputDefault" name="inputForm">
+   <button type="submit" class="btn btn-primary">GET</button>
+    </form>
+  </div>
 
-  <input type="text" class="form-control" placeholder="product link e.g. https://www.etsy.com/uk/listing/772695061/brass-or-silver-leaf-bookmark-set" id="inputDefault">
-</div>
-<button type="button" class="btn btn-primary">GET</button>
     </div>
 	  {% endblock %}
   </body>
