@@ -3,7 +3,7 @@ import requests
 import mysql.connector as mysql
 from bs4 import BeautifulSoup
 
-app1 = Flask(__name__)
+app = Flask(__name__)
 
 db = mysql.connect(
     host="localhost",
@@ -60,7 +60,7 @@ def all_products():
     return records
 
 
-@app1.route("/", methods=['GET', 'POST'])
+@app.route("/", methods=['GET', 'POST'])
 def home():
     if request.method == 'POST':
         product_link = request.form['inputForm']
@@ -73,18 +73,18 @@ def home():
         return render_template("home.html")
 
 
-@app1.route("/error")
+@app.route("/error")
 def error():
     return render_template("error.html")
 
 
-@app1.route("/products")
+@app.route("/products")
 def products():
     records = all_products()
     return render_template("products.html", data=records)
 
 
-@app1.route("/product<product_id>")
+@app.route("/product<product_id>")
 def product(product_id):
     try:
         data=product_details(product_id)
@@ -94,4 +94,4 @@ def product(product_id):
 
 
 if __name__ == '__main__':
-    app1.run(debug=True)
+    app.run()
