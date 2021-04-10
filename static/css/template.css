@@ -3,12 +3,23 @@
 	text-align:center;
 }
 h1{
-
 	color: white;
+	margin: 50px;
+	font-weight: bold;
 }
 .p1{
 	margin: 100px;
 	color: #6f42c1;
+}
+.p2{
+	color: #6f42c1;
+	margin: 15px;
+	border-bottom: 1px solid black;
+}
+.pError{
+	margin: 100px;
+	color: red;
+	font-size: x-large;
 }
 .box{
     width: 250px;
@@ -23,4 +34,28 @@ img{
 }
 .container1{
 	margin: 100px;
+}
+.a1{
+	color: royalblue;
+}
+.table1{
+	margin: 100px;
+}
+td{
+	color: black;
+	font-weight: bold;
+}
+thead{
+	color: royalblue;
+}
+#productLink{
+	color:blueviolet;
+	font-size: 20px;
+}
+#productID{
+	color: #a52428
+}
+#button{
+	margin: 100px;
+	/*font-size: 15px;*/
 }

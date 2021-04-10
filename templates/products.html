@@ -7,8 +7,32 @@
   <body>
   {% extends "template.html" %}
     {% block content %}
-    <h1> Products </h1>
+        <div class="container1">
+    <h1>List of the products</h1>
+        <p class="p1"></p>
+        <table class="table table-hover">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>IMAGE LINK</th>
+        <th>PRICE(£)</th>
+    </tr>
+    </thead>
+    <tbody>
+        {% for item in data %}
+            <tr>
+                <td id="productID">{{item[0]}}</td>
+                <td>{{item[1]}}</td>
+                <td>{{item[2]}}</td>
+                <td>{{item[3]}}</td>
+                <td><a id="productLink" href="product{{ item[0] }}">Go to the product &rArr;</a> </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
 
+        </div>
 	  {% endblock %}
   </body>
 </html>

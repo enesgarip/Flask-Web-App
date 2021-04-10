@@ -5,6 +5,13 @@
     <title>Error</title>
 </head>
 <body>
-<h1>Error Page</h1>
+
+{% extends "template.html" %}
+    {% block content %}
+        <div class="container1">
+        <p class="pError">404!</p>
+        <a class="a1" href={{ url_for('home') }}>Click to return homepage</a>
+        </div>
+{% endblock %}
 </body>
 </html>

@@ -8,22 +8,19 @@
   {% extends "template.html" %}
     {% block content %}
         <div class="container1">
-            <p class="p1"></p>
         <div class="box">
-             <img src="{{ data[2] }}" alt="image"/>
+             <img src="{{ data['image'] }}" alt="image"/>
         </div>
         <div>
-            <p class="p1"></p>
-            <h3>ID</h3>
-            <p class="p2">{{data[0]}}</p>
+             <p class="p1"></p>
             <h3>Name</h3>
-            <p class="p2">{{data[1]}}</p>
+            <p class="p1">{{data['name']}}</p>
             <h3>Image Link</h3>
-            <p class="p2">{{data[2]}}</p>
+            <p class="p1">{{data['image']}}</p>
             <h3>Price</h3>
-            <p class="p2">{{data[3]}}</p>
+            <p class="p1">{{data['price']}}</p>
         </div>
-        </div>
+</div>
 	  {% endblock %}
   </body>
 </html>
