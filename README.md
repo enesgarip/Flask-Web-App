@@ -14,7 +14,7 @@ Required packages are listed in the requirements.txt.
 
 ##### home.html
 
-![home](projectSS\home.png)
+![home](projectSS/home.png)
 
 ##### products.html
 
