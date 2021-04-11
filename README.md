@@ -6,7 +6,13 @@
 
 ### <u>Requirements</u>
 
-Python Flask Framework and MySQL.
+* Browser
+
+* Python Flask Framework
+
+* MySQL
+
+  
 
 Required packages are listed in the requirements.txt.
 
