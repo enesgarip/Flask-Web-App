@@ -18,7 +18,7 @@ Required packages are listed in the requirements.txt.
 
 ##### products.html
 
-![products](C:\Users\Garip\Desktop\projectss\products.png)
+![products](projectSS/products.png)
 
 
 
@@ -28,17 +28,17 @@ https://www.etsy.com/uk/listing/697038727/plant-awards-fun-house-plant-decoratio
 
 ##### addedproduct.html
 
-![addedproduct](C:\Users\Garip\Desktop\projectss\addedproduct.png)
+![addedproduct](projectSS/addedproduct.png)
 
 ##### products.html
 
-###### ![products updated](C:\Users\Garip\Desktop\projectss\products updated.png)
+###### ![products updated](projectSS\products updated.png)
 
 ##### product.html
 
-![specificproduct](C:\Users\Garip\Desktop\projectss\specificproduct.png)
+![specificproduct](projectSS\specificproduct.png)
 
 ##### error.html
 
-##### ![error](C:\Users\Garip\Desktop\projectss\error.png)
+##### ![error](projectSS\error.png)
 
