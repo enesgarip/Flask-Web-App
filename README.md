@@ -36,9 +36,9 @@ https://www.etsy.com/uk/listing/697038727/plant-awards-fun-house-plant-decoratio
 
 ##### product.html
 
-![specificproduct](projectSS\specificproduct.png)
+![specificproduct](projectSS/specificproduct.png)
 
 ##### error.html
 
-##### ![error](projectSS\error.png)
+##### ![error](projectSS/error.png)
 
