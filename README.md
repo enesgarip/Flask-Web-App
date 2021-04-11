@@ -28,7 +28,7 @@ Required packages are listed in the requirements.txt.
 
 
 
-After insertion of the product:
+After the insertion of the product:
 
 https://www.etsy.com/uk/listing/697038727/plant-awards-fun-house-plant-decorations?ref=home_more_from_this_shop-4
 
